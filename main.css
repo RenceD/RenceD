@@ -1,0 +1,27 @@
+div .text-center img {
+    width: auto;
+    height: 300px;
+    border: 5px solid gray;
+    border-radius: 150px;
+    padding: 5px;
+    margin: 10px;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+div.container .basic img { 
+    width: auto;
+    height: 25px;
+    padding: 0px 10px;
+    /* -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); */
+}
+
+div a.btn { 
+    transition: transform .2s; 
+}
+div a.btn:hover { 
+    transform: scale(1.1); 
+}
